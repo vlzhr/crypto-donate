@@ -1,0 +1,22 @@
+.waves__donate {
+    margin: 20px 0 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    box-shadow: #aaa 0 5px 4px -3px;
+    padding: 5px;
+}
+
+.waves__donate-button {
+    background: rgba(73, 80, 96, 1); transition: background-color .4s;
+    color: white;
+    margin: 5px 1px 0;
+    padding: 10px 2px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.waves__donate-button:hover {
+    background: rgba(73, 80, 96, 0.5);
+}

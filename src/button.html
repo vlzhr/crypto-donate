@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Button Widget</title>
+    <link rel="stylesheet" href="crypto-donate.css">
 </head>
 <body>
 
@@ -10,7 +11,13 @@
 
     <!-- the button -->
     <script src="../dist/dapp-settings.min.js"></script>
-    <button class="waves__donate-button" onclick="dApp.donate(this, 1)" data-recipient="vlzhr">Donate</button>
+    <div class="waves__donate">
+        <span class="waves__donate-label">Donate some Crypto!</span><br>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 10**4)" data-recipient="vlzhr">0.0001 &#128313;</button>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 10**8)" data-recipient="vlzhr">1 &#128313;</button>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 5*10**8)" data-recipient="vlzhr">5 &#128313;</button>
+
+    </div>
     <!-- widget's end -->
 
 </main>
