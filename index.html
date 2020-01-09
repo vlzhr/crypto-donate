@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate Example</title>
+    <link rel="stylesheet" href="src/crypto-donate.css">
+
+    <style>
+        section {
+            font-family: "Roboto", sans-serif;
+            width: 500px;
+            margin: auto;
+        }
+        article {
+            line-height: 1.3;
+            font-size: 18px;
+            margin-bottom: 100px;
+        }
+        article::after {
+            display: block;
+            content: "";
+            width: 100%;
+            height: 50px; margin-top: -50px; position: absolute;
+            background: linear-gradient(to top, white, white, rgba(255,255,255,0));
+        }
+        h1 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+<section>
+
+    <h1>Article Example</h1>
+    <article>
+        The new product called Waves Signer is created to partially solve the problem and remove a barrier for users in a Waves ecosystem. 🎉
+        Since now, developers can use Waves Signer functionality to allow users authorise using any preferable way - using any signature provider.
+        The following products can be used as a provider:
+    </article>
+
+    <h2>Liked the article?</h2>
+    <!-- the button -->
+    <script src="dist/dapp-settings.min.js"></script>
+    <div class="waves__donate">
+        <div class="waves__donate-label">Donate crypto to the author!</div>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 10**4)" data-recipient="vlzhr">0.0001 <span class="waves__logo"></span></button>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 10**8)" data-recipient="vlzhr">1 <span class="waves__logo"></span></button>
+        <button class="waves__donate-button" onclick="dApp.donate(this, 5*10**8)" data-recipient="vlzhr">5 <span class="waves__logo"></span></button>
+    </div>
+    <!-- widget's end -->
+
+</section>
+</body>
+</html>

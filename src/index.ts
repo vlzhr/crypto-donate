@@ -18,10 +18,10 @@ export function donate(element: HTMLElement, amount: TLong) {
         .broadcast()
         .then(
             () => {
-                label.innerHTML = 'Thank you for the donate!';
+                label.innerHTML = 'Thanks for your donation!';
             },
             (e) => {
-                label.innerHTML = 'Here is an error &#129300; Check the console!';
+                label.innerHTML = 'An error occurred. Check the console!';
                 console.log(e);
             }
         );
