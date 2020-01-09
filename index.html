@@ -16,12 +16,16 @@
             font-size: 18px;
             margin-bottom: 100px;
         }
-        article::after {
+        article .curtain {
             display: block;
-            content: "";
             width: 100%;
-            height: 50px; margin-top: -50px; position: absolute;
+            height: 50px; margin-top: -50px; position: absolute; box-sizing: border-box;
+            padding-top: 40px;
             background: linear-gradient(to top, white, white, rgba(255,255,255,0));
+            font-weight: 600;
+        }
+        article .curtain a {
+            color: #0055FF; text-decoration: none;
         }
         h1 {
             font-size: 40px;
@@ -36,6 +40,14 @@
         The new product called Waves Signer is created to partially solve the problem and remove a barrier for users in a Waves ecosystem. 🎉
         Since now, developers can use Waves Signer functionality to allow users authorise using any preferable way - using any signature provider.
         The following products can be used as a provider:
+        For now, Waves.Exchange provider is ready. It means, users can authorise in the 3-rd party applications using the Waves.Exchange account in any browser without downloading any extensions.
+        Right after the next picture I will describe the steps that developers need to do for implementing this feature to their dApps.
+        Waves Signer // transaction confirmation windowHow to use Waves Signer?
+        Let's discover the functionality that developers can implement to their dApps using Waves Signer. We will build an easy JS application step-by-step. The example is also published at github.
+        Let's code!!!
+        <div class="curtain">
+            Read on <a href="https://medium.com/@izhur27/getting-started-with-waves-signer-893017c9b7ae" target="_blank">Medium</a>
+        </div>
     </article>
 
     <h2>Liked the article?</h2>
