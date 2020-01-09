@@ -5,9 +5,8 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@waves.exchange/storage-provider": "0.0.22",
-    "@waves/storage-provider": "0.0.12",
-    "@waves/waves-js": "0.0.21"
+    "@waves.exchange/provider-web": "0.0.3",
+    "@waves/signer": "0.0.4"
   },
   "devDependencies": {
     "ts-loader": "^6.2.1",

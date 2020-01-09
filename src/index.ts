@@ -1,5 +1,5 @@
-import Waves, {TLong} from "@waves/waves-js";
-import Provider from "@waves.exchange/storage-provider";
+import Waves, {TLong} from "@waves/signer";
+import Provider from "@waves.exchange/provider-web";
 
 
 const provider = new Provider();
