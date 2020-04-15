@@ -8,4 +8,4 @@ Integration example: https://vlzhr.github.io/crypto-donate/
 Watch the demo: https://youtu.be/OrcNtEP8XpU
 
 ## Usage
-Just run the `npm start` command.
+To test the widget download the repo and run a `npm start` command.
